@@ -17,7 +17,7 @@ def lenotanome ():
                     else:
                         print("Nota fora do intervalo válido (0-10).")
                 except ValueError:
-                    print("Digite uma nota válida (número).")
+                    print("Digite uma nota válida em número.")
 
             nome = input("Digite o nome do aluno: ")
             

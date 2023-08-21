@@ -61,3 +61,28 @@ print(z)
 
 ___________________________________________________
 
+t = ("osmar", 123, 4, 5,[1, 2, 32, 4])
+print(type(t))
+print(type(t[3]))
+print(l)
+print(t)
+print("O tamanho da tupla e", len(t))
+l1 - t[3]
+
+for i in t:
+    print(i)
+
+aluno = {
+    "01" : "Pedro",
+    "02" : "Antonio",
+    "10" : "Isabela",
+
+    "Lista" : [8.0, 9.0, 7.6, 8.0]
+}
+print(aluno.values())
+print(aluno.keys())
+print(aluno["01".aluno["Lista"][0]])
+print(aluno['Lista'])
+print(aluno["Lista"][0])
+
+tup = (1, 3)

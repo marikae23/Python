@@ -11,4 +11,4 @@ y = int(input("Digite o expoente: "))
 z = pot(x, y)
 print(z)
 
-print(math, sqrt(9))
+print(math.sqrt(9))

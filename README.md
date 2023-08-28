@@ -110,3 +110,28 @@ print(type(c))
 ```
 </Details>
 </Details>
+
+# Dúvidas?
+Pergunta: Qual a diferença entre aspas simples e duplas para criar strings?
+>Resposta: Não há diferença funcional entre aspas simples e duplas para criar strings em Python. Você pode usar qualquer uma delas para delimitar strings.
+
+Pergunta: Como verificar o tipo de uma variável em Python?
+>Resposta: Você pode usar a função embutida type() para verificar o tipo de uma variável. Por exemplo: tipo = type(42) retornará <class 'int'>.
+
+Pergunta: Como fazer um loop em uma lista?
+>Resposta: Você pode usar um loop for para percorrer os elementos de uma lista. Por exemplo:
+
+```ruby
+numeros = [1, 2, 3, 4]
+for numero in numeros:
+    print(numero)
+```
+
+Pergunta: Como definir uma função em Python?
+>Resposta: Para definir uma função em Python, você usa a palavra-chave def, seguida do nome da função e seus parâmetros. Exemplo:
+
+```ruby
+def saudacao(nome):
+    print("Olá, " + nome + "!")
+```
+

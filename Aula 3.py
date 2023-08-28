@@ -19,3 +19,5 @@ print(l)  # A lista agora será [9, 8, 7, 5, 4, 4, 3, 2]
 # Insere o elemento 11 no início da lista
 l.insert(0, 11)
 print(l)  # A lista agora será [11, 9, 8, 7, 5, 4, 4, 3, 2]
+
+___________________________________________________

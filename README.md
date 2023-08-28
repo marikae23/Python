@@ -32,7 +32,7 @@ print(type(y))
 print(type(z))
 ```
 <Details>
-<summary>INT, FLOAT & COMPLEX</summary>
+<summary>Tipos Numéricos</summary>
 ### INT
   
 Int, ou inteiro, é um número inteiro, positivo ou negativo, sem decimais, de comprimento ilimitado.
@@ -71,5 +71,16 @@ print(type(z))
 ```
 
 ## COMPLEX
+Números complexos são escritos com um "j" como parte imaginária:
+
+```ruby
+x = 3+5j
+y = 5j
+z = -5j
+
+print(type(x))
+print(type(y))
+print(type(z))
+```
 
 </Details>

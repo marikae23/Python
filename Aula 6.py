@@ -7,3 +7,5 @@ def somaelem(l):
 l = [2, 0, 1, 5, 7, 8, 6]
 resultado = somaelem(l)
 print(resultado)
+
+﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏

@@ -1,4 +1,4 @@
-# Criar um array de 10 elementos inteiros aleatórios entre -100 e 100
+# Criar um array de 10 elementos inteiros aleatórios entre -100 e 100. ㅎ_ㅎ
 
 import random
 

@@ -1,7 +1,27 @@
+# Função que retorna o valor da potencia. ㅜㅁㅜ 
+
+import math
+
+def pot(x, y):
+    if y == 0:
+        return 1
+    elif y % 2 == 0:
+        half_pow = pot(x, y // 2)  # Calcula metade da potência
+        return half_pow * half_pow  # Eleva a metade ao quadrado para obter a potência completa
+    else:
+        return x * pot(x, y - 1)  # Caso ímpar: multiplica x pela potência anterior
+
+x = int(input("Digite a base: "))
+y = int(input("Digite o expoente: "))
+
+z = pot(x, y)  # Calcula a potência usando a função 'pot'
+print(z)  # Imprime o resultado da potência
+
+print(math.sqrt(9))  # Calcula a raiz quadrada de 9 usando a função da biblioteca math
+
 ___________________________________________________
 
-# Função que retorna o valor da potencia >_<
-
+# Versão do professor:
 import math
 
 def pot(x, y):
@@ -17,7 +37,7 @@ print(z)
 
 print(math.sqrt(9))
 
-___________________________________________________
+﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 import math
 
@@ -33,7 +53,7 @@ while True:
 print(pow(x, y))
 print(math.sqrt(45))
 
-___________________________________________________
+﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 import math
 
@@ -61,7 +81,7 @@ def imprime(w):
 z = pot(q, p)
 print(z)
 
-___________________________________________________
+﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 t = ("osmar", 123, 4, 5,[1, 2, 32, 4])
 print(type(t))

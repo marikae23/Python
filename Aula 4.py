@@ -61,7 +61,7 @@ print("Meio do programa")
 avalianota()
 print("Fim do programa")
 
-___________________________________________________
+﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 def imprime(l):
     print(l):

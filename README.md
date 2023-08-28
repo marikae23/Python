@@ -21,21 +21,21 @@ Aqui está uma breve introdução aos conceitos básicos da linguagem de Python:
 `print()`: É usada para exibir saída na tela.
 
 ### Built-in Data Types:
-Text Type:	     str
+Text Type:	     str;
 
-Numeric Types:	 int, float, complex
+Numeric Types:	 int, float, complex;
 
-Sequence Types:	 list, tuple, range
+Sequence Types:	 list, tuple, range;
 
-Mapping Type:	   dict
+Mapping Type:	   dict;
 
-Set Types:	     set, frozenset
+Set Types:	     set, frozenset;
 
-Boolean Type:	   bool
+Boolean Type:	   bool;
 
-Binary Types:    bytes, bytearray, memoryview
+Binary Types:    bytes, bytearray, memoryview;
 
-None Type:	     NoneType
+None Type:	     NoneType;
 
 ### Características Principais:
 

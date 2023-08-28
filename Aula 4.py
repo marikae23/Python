@@ -56,4 +56,17 @@ print(id(x))  # Imprime o identificador da lista 'x'
 
 ___________________________________________________
 
-# Versão do professor
+# Versão do professor:
+print("Meio do programa")
+avalianota()
+print("Fim do programa")
+
+___________________________________________________
+
+def imprime(l):
+    print(l):
+    print(id(l)):
+
+x = [1, 6, 4, 5, 8]
+imprime(x)
+print(id(x))

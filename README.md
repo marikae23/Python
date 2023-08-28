@@ -32,7 +32,7 @@ print(type(y))
 print(type(z))
 ```
 <Details>
-<summary>Tipos Numéricos</summary>
+<summary>**TIPOS NÚMERICOS**</summary>
 ### INT
   
 Int, ou inteiro, é um número inteiro, positivo ou negativo, sem decimais, de comprimento ilimitado.
@@ -83,7 +83,7 @@ print(type(y))
 print(type(z))
 ```
 <Details>
-  <summary>Conversão</summary>
+  <summary>**CONVERSÃO**</summary>
 Você pode converter de um tipo para outro com os métodos int(), float() e complex():
 
 ```ruby

@@ -9,3 +9,12 @@ resultado = somaelem(l)
 print(resultado)
 
 ﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+
+def soma(x, y, z):
+
+    return (x*y*z)
+
+t = (1, 2, 3)
+print(type(t))
+l = list(t)
+print(soma(1, 2, 3, 4, 5))

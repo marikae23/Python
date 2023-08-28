@@ -19,11 +19,15 @@ Python é uma linguagem de programação popular. Foi criada por Guido van Rossu
 >- float;
 >- complex;
 
-Variables of numeric types are created when you assign a value to them:
-
 **Exemplo**
 ```
+# Variáveis de tipos numéricos são criadas quando você atribui um valor a elas:
 x = 1    # int
 y = 2.8  # float
 z = 1j   # complex
+
+# Para verificar o tipo de qualquer objeto em Python, use a função "type()":
+print(type(x))
+print(type(y))
+print(type(z))
 ```

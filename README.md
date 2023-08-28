@@ -2,7 +2,7 @@
 
 **Olá!** 💘
 
->Aqui está uma breve introdução aos conceitos básicos da linguagem de Python:
+Aqui está uma breve introdução aos conceitos básicos da linguagem de Python:
 
 `variáveis e tipos de dados`: Em Python, você pode declarar variáveis sem explicitar o tipo. Os tipos de dados incluem inteiros, números de ponto flutuante, strings (cadeias de caracteres) e booleanos (True ou False).
 

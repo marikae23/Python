@@ -1,6 +1,5 @@
 # Python
-
-**Olá!** 💘
+Python é uma linguagem de programação popular. Foi criada por Guido van Rossum e lançada em 1991. Python pode ser usado em um servidor para criar aplicações web, pode ser usado junto com software para criar fluxos de trabalho, pode se conectar a sistemas de bancos de dados. Também pode ler e modificar arquivos, pode ser usado para lidar com grandes volumes de dados e realizar matemática complexa e pode ser usado para prototipagem. rápida ou para desenvolvimento de software pronto para produção.
 
 Aqui está uma breve introdução aos conceitos básicos da linguagem de Python:
 

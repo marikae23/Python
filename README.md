@@ -32,8 +32,9 @@ print(type(y))
 print(type(z))
 ```
 <Details>
-<summary>**TIPOS NÚMERICOS**</summary>
-### INT
+<summary>TIPOS NÚMERICOS!</summary>
+  
+## INT
   
 Int, ou inteiro, é um número inteiro, positivo ou negativo, sem decimais, de comprimento ilimitado.
 
@@ -46,7 +47,6 @@ print(type(x))
 print(type(y))
 print(type(z))
 ```
-
 ## FLOAT
 Float, ou "número de ponto flutuante", é um número, positivo ou negativo, que contém um ou mais decimais.
 
@@ -83,7 +83,7 @@ print(type(y))
 print(type(z))
 ```
 <Details>
-  <summary>**CONVERSÃO**</summary>
+  <summary>CONVERSÃO!</summary>
 Você pode converter de um tipo para outro com os métodos int(), float() e complex():
 
 ```ruby

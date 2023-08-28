@@ -33,7 +33,8 @@ print(type(z))
 ```
 <Details>
 <summary>INT, FLOAT & COMPLEX</summary>
-<Header>INT</Header>
+  <Header>INT</Header>
+  
 Int, ou inteiro, é um número inteiro, positivo ou negativo, sem decimais, de comprimento ilimitado.
 
 ```

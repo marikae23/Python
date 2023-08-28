@@ -31,8 +31,8 @@ print(type(x))
 print(type(y))
 print(type(z))
 ```
-
-### Int
+<Details>
+<summary>### Int</summary>
 Int, ou inteiro, é um número inteiro, positivo ou negativo, sem decimais, de comprimento ilimitado.
 
 ```
@@ -44,4 +44,4 @@ print(type(x))
 print(type(y))
 print(type(z))
 ```
-
+</Details>

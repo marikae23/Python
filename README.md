@@ -20,7 +20,7 @@ Python é uma linguagem de programação popular. Foi criada por Guido van Rossu
 >- complex;
 
 **Exemplo**
-```
+```ruby
 # Variáveis de tipos numéricos são criadas quando você atribui um valor a elas:
 x = 1    # int
 y = 2.8  # float
@@ -37,7 +37,7 @@ print(type(z))
   
 Int, ou inteiro, é um número inteiro, positivo ou negativo, sem decimais, de comprimento ilimitado.
 
-```
+```ruby
 x = 1
 y = 35656222554887711
 z = -3255522
@@ -50,7 +50,7 @@ print(type(z))
 ## FLOAT
 Float, ou "número de ponto flutuante", é um número, positivo ou negativo, que contém um ou mais decimais.
 
-```
+```ruby
 x = 1.10
 y = 1.0
 z = -35.59
@@ -70,5 +70,6 @@ print(type(y))
 print(type(z))
 ```
 
+## COMPLEX
 
 </Details>

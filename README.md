@@ -2,7 +2,7 @@
 
 **Olá!** 💘
 
-Aqui está uma breve introdução aos conceitos básicos da linguagem de Python:
+>Aqui está uma breve introdução aos conceitos básicos da linguagem de Python:
 
 `variáveis e tipos de dados`: Em Python, você pode declarar variáveis sem explicitar o tipo. Os tipos de dados incluem inteiros, números de ponto flutuante, strings (cadeias de caracteres) e booleanos (True ou False).
 
@@ -20,7 +20,7 @@ Aqui está uma breve introdução aos conceitos básicos da linguagem de Python:
 
 `print()`: É usada para exibir saída na tela.
 
-### Built-in Data Types:
+## Built-in Data Types:
 Text Type:	     str;
 
 Numeric Types:	 int, float, complex;

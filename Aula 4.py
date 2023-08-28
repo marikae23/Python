@@ -54,3 +54,6 @@ x = [1, 6, 4, 5, 8]
 imprime(x)
 print(id(x))  # Imprime o identificador da lista 'x'
 
+___________________________________________________
+
+# Versão do professor

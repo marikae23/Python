@@ -12,20 +12,18 @@ Python é uma linguagem de programação popular. Foi criada por Guido van Rossu
 >- Binary Types:    bytes, bytearray, memoryview;
 >- None Type:	     NoneType;
 
-### Características Principais:
+## Python Numbers:
+> [!NOTE]
+>Existem três tipos numéricos em Python:
+>- int;
+>- float;
+>- complex;
 
-- Sintaxe Limpa: O código Python é conhecido por sua sintaxe limpa e clara, que facilita a leitura e a escrita de programas.
-- Tipagem Dinâmica: Python é uma linguagem de tipagem dinâmica, o que significa que você não precisa declarar explicitamente o tipo de uma variável. O tipo é inferido durante a execução do programa.
-- Interpretada: Python é uma linguagem interpretada, o que significa que você pode executar o código diretamente, sem a necessidade de compilação prévia.
-- Ampla Biblioteca Padrão: Python possui uma vasta biblioteca padrão que oferece muitos módulos e funcionalidades prontas para uso, o que facilita a realização de diversas tarefas.
-- Orientação a Objetos: Python suporta programação orientada a objetos, permitindo a criação e uso de classes e objetos.
+Variables of numeric types are created when you assign a value to them:
 
-Exemplo:
-
+**Exemplo**
 ```
-# Calculando a soma de dois números
-num1 = float(input("Digite o primeiro número: "))
-num2 = float(input("Digite o segundo número: "))
-soma = num1 + num2
-print("A soma é:", soma)
+x = 1    # int
+y = 2.8  # float
+z = 1j   # complex
 ```

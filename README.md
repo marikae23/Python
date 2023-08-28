@@ -82,5 +82,31 @@ print(type(x))
 print(type(y))
 print(type(z))
 ```
+<Details>
+  <summary>Conversão</summary>
+Você pode converter de um tipo para outro com os métodos int(), float() e complex():
 
+```ruby
+x = 1    # int
+y = 2.8  # float
+z = 1j   # complex
+
+#convert from int to float:
+a = float(x)
+
+#convert from float to int:
+b = int(y)
+
+#convert from int to complex:
+c = complex(x)
+
+print(a)
+print(b)
+print(c)
+
+print(type(a))
+print(type(b))
+print(type(c))
+```
+</Details>
 </Details>

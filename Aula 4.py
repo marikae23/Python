@@ -1,9 +1,9 @@
-# Função
+# Função que coleta informações earmazena em listas. ㅇㅁㅇ
 
-nota = []
-nome = []
+nota = []  # Lista para armazenar notas dos alunos
+nome = []  # Lista para armazenar nomes dos alunos
 
-def lenotanome ():
+def lenotanome():
     try:
         quantidade_alunos = int(input("Digite a quantidade de alunos: "))
         for i in range(quantidade_alunos):
@@ -11,18 +11,18 @@ def lenotanome ():
             
             while True:
                 try:
-                    nota = float(input("Digite a nota do aluno: "))
-                    if 0 <= nota <= 10:
+                    nota_aluno = float(input("Digite a nota do aluno: "))
+                    if 0 <= nota_aluno <= 10:
                         break
                     else:
                         print("Nota fora do intervalo válido (0-10).")
                 except ValueError:
                     print("Digite uma nota válida em número.")
 
-            nome = input("Digite o nome do aluno: ")
+            nome_aluno = input("Digite o nome do aluno: ")
             
-            notas.append(nota)
-            nome.append(nome)
+            nota.append(nota_aluno)  # Adiciona a nota à lista 'nota'
+            nome.append(nome_aluno)  # Adiciona o nome à lista 'nome'
             
     except ValueError:
         print("Digite uma quantidade válida de alunos.")
@@ -38,7 +38,7 @@ def avalianota():
         else:
             conceito = "D"
 
-    print("O aluno {} tem conceito {} e nota {}".format(nome[i], conceito, nota[i]))
+        print("O aluno {} tem conceito {} e nota {}".format(nome[i], conceito, nota[i]))
         
 print("O programa começa aqui")
 lenotanome()
@@ -46,12 +46,11 @@ print("Meio do programa")
 avalianota()
 print("Fim do programa")
 
-___________________________________________________
-
 def imprime(l):
-    print(l):
-    print(id(l)):
+    print(l)  # Imprime a lista
+    print(id(l))  # Imprime o identificador da lista
 
 x = [1, 6, 4, 5, 8]
 imprime(x)
-print(id(x))
+print(id(x))  # Imprime o identificador da lista 'x'
+

@@ -16,7 +16,7 @@ print(l)  # Imprime a lista atualizada: [1, 2, 57, 3, 9, 92, 88]
 
 ___________________________________________________
 
-# Versão do professor
+# Versão do professor:
 print("Hello World !")
 
 l = [1, 2, 57, 3, 9, 92]

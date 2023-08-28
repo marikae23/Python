@@ -31,3 +31,16 @@ print(type(x))
 print(type(y))
 print(type(z))
 ```
+
+###Int
+Int, ou inteiro, é um número inteiro, positivo ou negativo, sem decimais, de comprimento ilimitado.
+```
+x = 1
+y = 35656222554887711
+z = -3255522
+
+print(type(x))
+print(type(y))
+print(type(z))
+```
+

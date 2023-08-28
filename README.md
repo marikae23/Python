@@ -33,7 +33,7 @@ print(type(z))
 ```
 <Details>
 <summary>INT, FLOAT & COMPLEX</summary>
-  <header>INT! >_<</header>
+## INT
 Int, ou inteiro, é um número inteiro, positivo ou negativo, sem decimais, de comprimento ilimitado.
 
 ```
@@ -45,4 +45,29 @@ print(type(x))
 print(type(y))
 print(type(z))
 ```
+
+## FLOAT
+Float, ou "número de ponto flutuante", é um número, positivo ou negativo, que contém um ou mais decimais.
+
+```
+x = 1.10
+y = 1.0
+z = -35.59
+
+print(type(x))
+print(type(y))
+print(type(z))
+
+#Float também pode ser números científicos com um "e" para indicar a potência de 10.
+
+x = 35e3
+y = 12E4
+z = -87.7e100
+
+print(type(x))
+print(type(y))
+print(type(z))
+```
+
+
 </Details>

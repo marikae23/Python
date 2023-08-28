@@ -1,40 +1,22 @@
 # Python
 Python é uma linguagem de programação popular. Foi criada por Guido van Rossum e lançada em 1991. Python pode ser usado em um servidor para criar aplicações web, pode ser usado junto com software para criar fluxos de trabalho, pode se conectar a sistemas de bancos de dados. Também pode ler e modificar arquivos, pode ser usado para lidar com grandes volumes de dados e realizar matemática complexa e pode ser usado para prototipagem. rápida ou para desenvolvimento de software pronto para produção.
 
-Aqui está uma breve introdução aos conceitos básicos da linguagem de Python:
-
-`variáveis e tipos de dados`: Em Python, você pode declarar variáveis sem explicitar o tipo. Os tipos de dados incluem inteiros, números de ponto flutuante, strings (cadeias de caracteres) e booleanos (True ou False).
-
-`if, else, elif, for e while`: Python usa indentação (espaços em branco) para definir blocos de código, como loops e estruturas condicionais.
-
-`listas, tuplas e dicionários`: Listas são coleções mutáveis de elementos, tuplas são coleções imutáveis e dicionários são coleções de pares chave-valor.
-
-`def`: Você pode definir funções em Python, permitindo que você reutilize código e torne-o mais modular.
-
-`módulos e pacotes`: Módulos são arquivos contendo código Python, e pacotes são coleções de módulos organizados em diretórios, permitindo melhor organização e reutilização de código.
-
-`try e except`: Python lida com erros usando exceções. Você pode usar esses blocos para tratar situações excepcionais.
-
-`input()`: É usada para receber entrada do usuário. 
-
-`print()`: É usada para exibir saída na tela.
-
 ## Built-in Data Types:
-Text Type:	     str;
+- Text Type:	     str;
 
-Numeric Types:	 int, float, complex;
+- Numeric Types:	 int, float, complex;
 
-Sequence Types:	 list, tuple, range;
+- Sequence Types:	 list, tuple, range;
 
-Mapping Type:	   dict;
+- Mapping Type:	   dict;
 
-Set Types:	     set, frozenset;
+- Set Types:	     set, frozenset;
 
-Boolean Type:	   bool;
+- Boolean Type:	   bool;
 
-Binary Types:    bytes, bytearray, memoryview;
+- Binary Types:    bytes, bytearray, memoryview;
 
-None Type:	     NoneType;
+- None Type:	     NoneType;
 
 ### Características Principais:
 

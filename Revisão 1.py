@@ -37,20 +37,38 @@ def menu():
             pass
         if int(op) == 4:
             imprimirlista(lst)
-
-
+        if int(op) == 5:
+            dic = criaDic()
+        if int(op) == 6:
+            imprimirDic(dic)
 def crialista():
     l = []
     x = int(input("quantos elementos pra lista? "))
-    while x > 0:
-        elemento = int(input("digite o {} elemento da lista".format(x)))
+    for i in range(x):
+        elemento = int(input("digite o {} elemento da lista".format(i+1)))
         l.append(elemento)
-        x = x - 1
-    return(1)
+    return l
 
-def imprimirlista(Lista):
-    print(Lista)
+
+def imprimirlista(lista):
+    print(lista)
     time.sleep(5)
 
-'''programa principal'''
+def criaDic():
+    dic={}
+    x = int(input("elementos dicionario:"))
+    for i in range(x):
+        nome = input("nome:")
+        nota = float(input("digite nota:"))
+        dic.get(nome)
+        dic[nome] = nota
+    return dic
+
+def imprimirDic(dic):
+    print(dic)
+    time.sleep(4)
+# programa principal
+
+def invert(lista)
+
 menu()

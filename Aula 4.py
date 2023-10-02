@@ -40,9 +40,9 @@ def avalianota():
 
         print("O aluno {} tem conceito {} e nota {}".format(nome[i], conceito, nota[i]))
 
-def imprime(l):
-    print(l)  # Imprime a lista
-    print(id(l))  # Imprime o identificador da lista
+def imprime(i):
+    print(i)  # Imprime a lista
+    print(id(i))  # Imprime o identificador da lista
 
 print("O programa começa aqui")
 lenotanome()

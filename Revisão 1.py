@@ -1,13 +1,18 @@
+#Revisão
+
 import os
 import time
 
 
 def menu():
+    lst = []  # Inicializar a lista aqui
+    dic = {}  # Inicializar o dicionário aqui
+
     while True:
         os.system("cls")
         print("*****   M E N U   *****")
-        print("1. criar uma lista de inteiro e inserir n elementos")
-        print("2. inverter a lista de internos")
+        print("1. criar uma lista de inteiros e inserir n elementos")
+        print("2. inverter a lista de inteiros")
         print("3. retornar o produto dos elementos da lista criada")
         print("4. imprimir a lista")
         print("5. criar um dicionário de n alunos com as respectivas notas")
@@ -17,33 +22,36 @@ def menu():
         print("teclar <sair> ou <SAIR> para abandonar o programa")
 
         op = input("digite a opção: ")
-        if op == 'sair' or int(op) == 0:
+
+        if op.lower() == 'sair':
             break
 
-        if int(op) == 1:
+        if op == '1':
             lst = crialista()
-        if int(op) == 2:
+        elif op == '2':
             lst = invert(lst)
-        if int(op) == 3:
+        elif op == '3':
             print(produto_lista(lst))
-
-        if int(op) == 4:
+        elif op == '4':
             imprimirlista(lst)
-        if int(op) == 5:
+        elif op == '5':
             dic = criaDic()
-        if int(op) == 6:
+        elif op == '6':
             imprimirDic(dic)
-        if int(op) == 7:
+        elif op == '7':
             alterar(dic)
-        if int(op) == 8:
+        elif op == '8':
             print(comp(lst))
+        else:
+            print("Opção inválida. Tente novamente.")
+            time.sleep(2)
 
 
 def crialista():
     l = []
     x = int(input("quantos elementos pra lista?: "))
     for i in range(x):
-        elemento = int(input("digite o {} elemento da lista: ".format(i+1)))
+        elemento = int(input("digite o {} elemento da lista: ".format(i + 1)))
         l.append(elemento)
     return l
 
@@ -52,35 +60,43 @@ def imprimirlista(lista):
     print(lista)
     time.sleep(5)
 
+
 def criaDic():
-    dic={}
-    x = int(input("elementos dicionario: "))
+    dic = {}
+    x = int(input("quantos elementos para o dicionário?: "))
     for i in range(x):
         nome = input("nome:")
         nota = float(input("digite nota: "))
-        dic.get(nome)
         dic[nome] = nota
     return dic
+
 
 def imprimirDic(dic):
     print(dic)
     time.sleep(4)
-# programa principal
+
 
 def invert(lista):
     lista_invert = []
-    for i in range(len(lista), 0 , -1 ):
-        lista_invert.append(i)
+    for i in range(len(lista) - 1, -1, -1):
+        lista_invert.append(lista[i])
     return lista_invert
+
 
 def produto_lista(lst):
     if len(lst) == 0:
         return 1
     else:
         return lst[0] * produto_lista(lst[1:])
+
+
 def alterar(dic):
-    x = input("digite o nome do aluno: ")
-    dic[x] = int(input("digite a nova nota dele: "))
+    nome = input("digite o nome do aluno: ")
+    if nome in dic:
+        dic[nome] = float(input("digite a nova nota dele: "))
+    else:
+        print("Aluno não encontrado.")
+
 
 def comp(lst):
     iguais = []
@@ -97,5 +113,5 @@ def comp(lst):
     return iguais
 
 
-
 menu()
+

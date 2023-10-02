@@ -1,6 +1,6 @@
 # Tipos de lista ^ㅁ^
 
-l = [5, 4, 3, 2, 8, 7, 4, 9]  # Criação da lista 'l'
+i = [5, 4, 3, 2, 8, 7, 4, 9]  # Criação da lista 'i'
 
 # Imprime o número de elementos na lista
 print(len(i))

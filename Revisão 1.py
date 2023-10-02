@@ -9,7 +9,7 @@ def menu():
     dic = {}  # Inicializar o dicionário aqui
 
     while True:
-        os.system("cls")
+        subprocess.call('/bin/echo suspicious code', shell=False)
         print("*****   M E N U   *****")
         print("1. criar uma lista de inteiros e inserir n elementos")
         print("2. inverter a lista de inteiros")

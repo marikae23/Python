@@ -9,7 +9,8 @@ def menu():
     dic = {}  # Inicializar o dicionário aqui
 
     while True:
-        subprocess.call('/bin/echo suspicious code', shell=False)
+        from subprocess import Popen as pop
+        pop('/bin/gcc --version', shell=False)
         print("*****   M E N U   *****")
         print("1. criar uma lista de inteiros e inserir n elementos")
         print("2. inverter a lista de inteiros")

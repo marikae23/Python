@@ -29,7 +29,7 @@ def lenotanome():
 
 def avalianota():
     for i in range(len(nome)):
-        if 9.0 <= nota[i] <= 10:
+        if 9.0 <= nota[i] < 10:
             conceito = "A"
         elif 8.0 <= nota[i] < 9.0:
             conceito = "B"
@@ -39,20 +39,21 @@ def avalianota():
             conceito = "D"
 
         print("O aluno {} tem conceito {} e nota {}".format(nome[i], conceito, nota[i]))
-        
+
+def imprime(l):
+    print(l)  # Imprime a lista
+    print(id(l))  # Imprime o identificador da lista
+
 print("O programa começa aqui")
 lenotanome()
 print("Meio do programa")
 avalianota()
 print("Fim do programa")
 
-def imprime(l):
-    print(l)  # Imprime a lista
-    print(id(l))  # Imprime o identificador da lista
-
 x = [1, 6, 4, 5, 8]
 imprime(x)
 print(id(x))  # Imprime o identificador da lista 'x'
+
 
 ___________________________________________________
 
@@ -63,9 +64,9 @@ print("Fim do programa")
 
 ﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
-def imprime(l):
-    print(l):
-    print(id(l)):
+def imprime(i):
+    print(i):
+    print(id(i)):
 
 x = [1, 6, 4, 5, 8]
 imprime(x)

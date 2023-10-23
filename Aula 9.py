@@ -36,6 +36,7 @@ class Conta:
         f.write(str(c.titular))
         f.close()
 
+# Programa principal
 while True:
     print ('''
         1. Digite os dados
@@ -53,3 +54,17 @@ while True:
         num = input("Digite o número da conta: ")
         sld = input("Digitw o saldo da conta: ")
         lmy = input("Digite o limite da conta: ")
+        clienre = Cliente(n, s, c)
+        minha_conta = Conta(num, n, sld, lmt)
+        minha_conta.grava
+        cliente.grava()
+        #   cliente = Cliente("Joao", "Oliveira", "123456-7")
+        #minha_conta = Conta("123-4", cliente, 120.0, 1000.0)
+        #print(minha_conta.titular)
+
+    op == 2:
+        print(cliente.ler())
+        #print(minha_conta.ler())
+        #print(minha_conta.ler)
+        #print(cliente.cpf)
+        #print(minha_conta.titular.nome, " ",)

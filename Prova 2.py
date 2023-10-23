@@ -1,4 +1,7 @@
-# Um armazém trabalha com 100 mercadorias diferentes identificadas pelos números inteiros de 1 a100. O dono do armazém anota a quantidade de cada mercadoria vendida durante o mês. Ele tem uma tabela que indica para cada mercadoria o preço de venda. Escreva um programa para calcular o faturamento mensal do armazém, isto é: Faturamento = somatório das quantidades vendidas vezes os preços. Onde k é a quantidade vendida e preçok é o preço da k_ésima mercadoria.
+# Um armazém trabalha com 100 mercadorias diferentes identificadas pelos números inteiros de 1 a100. 
+# O dono do armazém anota a quantidade de cada mercadoria vendida durante o mês. Ele tem uma tabela que indica para cada mercadoria o preço de venda. 
+# Escreva um programa para calcular o faturamento mensal do armazém, isto é: Faturamento = somatório das quantidades vendidas vezes os preços. 
+# Onde k é a quantidade vendida e preçok é o preço da k_ésima mercadoria.
 
 
 import Aulas as plt

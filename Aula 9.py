@@ -14,7 +14,7 @@ class Cliente:
     def ler(c):
         f = open("cliente.txt", "r")
         print("Leitura de cliente")
-        l = f.read()
+        i = f.read()
         print(l)
         #for i n f:
         #    print(i.)
